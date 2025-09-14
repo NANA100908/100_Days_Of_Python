@@ -29,6 +29,8 @@ print(type(True))        #
 user_number = input("Enter a number:")
 as_integer = int(user_number)
 as_float = float(user_number)
+as_string =str(user_name)
+as_bool = bool(user_number)
 ```
 
 ### String Manipulation
@@ -96,3 +98,4 @@ The Tip Calculator project is designed to practice working with data types and s
 | f-strings               | `f"Value: {x}"`            | Modern, readable formatting           |
 | Arithmetic operators    | `+`, `-`, `*`, `/`, `**`   | For calculations                      |
 | Rounding numbers        | `round(num, 2)`            | Helpful for currency/money            |
+
